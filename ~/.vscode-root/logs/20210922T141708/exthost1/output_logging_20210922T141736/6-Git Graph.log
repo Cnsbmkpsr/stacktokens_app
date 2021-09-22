@@ -1,9 +1,0 @@
-[2021-09-22 14:17:36.542] Starting Git Graph ...
-[2021-09-22 14:17:36.556] Using git (version: 2.33.0)
-[2021-09-22 14:17:36.561] Started Git Graph - Ready to use!
-[2021-09-22 14:17:36.562] Searching workspace for new repos ...
-[2021-09-22 14:17:36.575] > git rev-parse --show-toplevel
-[2021-09-22 14:17:36.582] Added new repo: /home/cthulhu/Programmation/DApps/Solidity-Dapps
-[2021-09-22 14:17:36.588] Completed searching workspace for new repos
-[2021-09-22 14:17:36.588] Showing "Git Graph" Status Bar Item
-[2021-09-22 14:17:36.589] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
