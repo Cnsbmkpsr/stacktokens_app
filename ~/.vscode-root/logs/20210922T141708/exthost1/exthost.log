@@ -1,0 +1,95 @@
+[2021-09-22 14:17:12.910] [exthost] [info] extension host started
+[2021-09-22 14:17:13.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-09-22 14:17:13.078] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-09-22 14:17:13.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-22 14:17:13.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-22 14:17:13.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-22 14:17:13.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/git/dist/main
+[2021-09-22 14:17:13.204] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-09-22 14:17:13.204] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/christian-kohler.path-intellisense-2.4.0/out/extension.js
+[2021-09-22 14:17:13.215] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-09-22 14:17:13.215] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-09-22 14:17:13.227] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2021-09-22 14:17:13.227] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js
+[2021-09-22 14:17:13.243] [exthost] [info] ExtensionService#_doActivateExtension raathigeshan.fabulous {"startup":true,"extensionId":{"value":"raathigeshan.fabulous","_lower":"raathigeshan.fabulous"},"activationEvent":"*"}
+[2021-09-22 14:17:13.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/raathigeshan.fabulous-0.12.0/out/extension/extension.js
+[2021-09-22 14:17:13.414] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2021-09-22 14:17:13.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/tabnine.tabnine-vscode-3.4.27/out/extension
+[2021-09-22 14:17:13.469] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2021-09-22 14:17:13.470] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js
+[2021-09-22 14:17:13.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:13.756] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-09-22 14:17:13.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:13.763] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-09-22 14:17:13.830] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:13.830] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-09-22 14:17:13.928] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-22 14:17:13.929] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-09-22 14:17:13.936] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-22 14:17:13.936] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-22 14:17:14.156] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-09-22 14:17:14.156] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-09-22 14:17:14.212] [exthost] [info] eager extensions activated
+[2021-09-22 14:17:14.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:14.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-22 14:17:14.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:14.238] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-22 14:17:14.241] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:14.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/eamodio.gitlens-11.6.0/dist/gitlens
+[2021-09-22 14:17:14.353] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:14.353] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-09-22 14:17:32.898] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-22 14:17:33.914] [exthost] [info] exiting with code 0
+[2021-09-22 14:17:34.455] [exthost] [info] extension host started
+[2021-09-22 14:17:34.455] [exthost] [info] Skipping acquiring lock for /home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/User/workspaceStorage/2587efd919338409e3be906d167d7574.
+[2021-09-22 14:17:34.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-09-22 14:17:34.504] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-09-22 14:17:34.547] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-22 14:17:34.547] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-22 14:17:34.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-22 14:17:34.551] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/git/dist/main
+[2021-09-22 14:17:34.644] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-09-22 14:17:34.644] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/christian-kohler.path-intellisense-2.4.0/out/extension.js
+[2021-09-22 14:17:34.657] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2021-09-22 14:17:34.657] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/tabnine.tabnine-vscode-3.4.27/out/extension
+[2021-09-22 14:17:34.734] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-09-22 14:17:34.734] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-09-22 14:17:34.857] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:34.857] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-09-22 14:17:34.859] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:34.860] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-09-22 14:17:34.873] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-22 14:17:34.874] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-09-22 14:17:34.978] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-22 14:17:34.978] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-09-22 14:17:35.011] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-22 14:17:35.011] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-22 14:17:35.319] [exthost] [info] eager extensions activated
+[2021-09-22 14:17:35.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-09-22 14:17:35.372] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-09-22 14:17:35.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:35.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-22 14:17:35.453] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:35.453] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-22 14:17:35.456] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:35.456] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/eamodio.gitlens-11.6.0/dist/gitlens
+[2021-09-22 14:17:35.597] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-09-22 14:17:35.597] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-09-22 14:17:36.201] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":false,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-09-22 14:17:36.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-09-22 14:17:36.223] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":false,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2021-09-22 14:17:36.223] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js
+[2021-09-22 14:17:36.251] [exthost] [info] ExtensionService#_doActivateExtension raathigeshan.fabulous {"startup":false,"extensionId":{"value":"raathigeshan.fabulous","_lower":"raathigeshan.fabulous"},"activationEvent":"*"}
+[2021-09-22 14:17:36.251] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/raathigeshan.fabulous-0.12.0/out/extension/extension.js
+[2021-09-22 14:17:36.424] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":false,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2021-09-22 14:17:36.424] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js
+[2021-09-22 14:17:52.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2021-09-22 14:17:52.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2021-09-22 14:17:53.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-09-22 14:17:53.835] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-09-22 14:18:00.573] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-09-22 14:18:00.583] [exthost] [error] Canceled: Canceled
+    at T.makeCancelError (/var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436922)
+    at T.handleFailedRequest (/var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436773)
+    at /var/lib/snapd/snap/code/74/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:396988
+    at g.provideHover (/var/lib/snapd/snap/code/74/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:166317)
