@@ -45,3 +45,12 @@
 [2021-09-23 06:35:02.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
 [2021-09-23 06:36:27.912] [exthost] [info] ExtensionService#_doActivateExtension JuanBlanco.solidity {"startup":false,"extensionId":{"value":"JuanBlanco.solidity","_lower":"juanblanco.solidity"},"activationEvent":"onLanguage:solidity"}
 [2021-09-23 06:36:27.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/juanblanco.solidity-0.0.125/out/src/extension
+[2021-09-23 06:53:05.592] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-09-23 06:53:05.592] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/75/usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-09-23 06:53:05.963] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-23 06:53:06.489] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-09-23 06:53:06.497] [exthost] [error] Canceled: Canceled
+    at b.makeCancelError (/var/lib/snapd/snap/code/75/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:460001)
+    at b.handleFailedRequest (/var/lib/snapd/snap/code/75/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:459852)
+    at /var/lib/snapd/snap/code/75/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:471054
+    at X.provideColors (/var/lib/snapd/snap/code/75/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:182595)

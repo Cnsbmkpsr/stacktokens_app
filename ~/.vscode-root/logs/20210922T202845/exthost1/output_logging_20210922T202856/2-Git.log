@@ -50,3 +50,5 @@ Open repository: /home/cthulhu/Programmation/DApps/Solidity-Dapps
 > git show --textconv :migrations/1_initial_migration.js
 > git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
 > git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/TokenFarm.sol

@@ -14,3 +14,17 @@ Open repository: /home/cthulhu/Programmation/DApps/Solidity-Dapps
 > git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
 > git show --textconv :src/contracts/TokenFarm.sol
 > git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/TokenFarm.sol
+> git show --textconv :package.json
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/package.json
+> git cat-file -s a03085e953d82e4de1433b256b44939aa23c58c9
+> git show --textconv :truffle-config.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/truffle-config.js
+> git cat-file -s 1466c8206f1be3a024500da9cc53433c1208cd47
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/Migrations.sol
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/TokenFarm.sol
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/DappToken.sol
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/DaiToken.sol

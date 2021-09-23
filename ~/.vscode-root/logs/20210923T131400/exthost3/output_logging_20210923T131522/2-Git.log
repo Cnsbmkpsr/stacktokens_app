@@ -1,0 +1,202 @@
+Validation du git trouvé dans : git
+Utilisation de git 2.33.0 à partir de git
+> git rev-parse --git-dir
+Open repository: /home/cthulhu/Programmation/DApps/stacktoken_app
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/Migrations.sol
+> git cat-file -s 73f0620c8670493bc98d1de12ae84dba46a194dd
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/Migrations.sol
+> git cat-file -s 73f0620c8670493bc98d1de12ae84dba46a194dd
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/Migrations.sol
+> git cat-file -s 73f0620c8670493bc98d1de12ae84dba46a194dd
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 1b49565643927861ef055ad844b6f675770aaa71
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/TokenFarm.sol
+> git cat-file -s 031b2c6ab8d15d10c3a54a0d76b707aaba25a2d3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s f0608c1e3536973bdc67e431ba5ae7ed5c1f964f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s f0608c1e3536973bdc67e431ba5ae7ed5c1f964f
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s f0608c1e3536973bdc67e431ba5ae7ed5c1f964f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s f0608c1e3536973bdc67e431ba5ae7ed5c1f964f
+> git check-ignore -v -z --stdin
+> git add -A -- .
