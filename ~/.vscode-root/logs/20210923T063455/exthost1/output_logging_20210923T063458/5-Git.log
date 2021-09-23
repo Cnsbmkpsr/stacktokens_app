@@ -1,0 +1,16 @@
+Validation du git trouvé dans : git
+Utilisation de git 2.33.0 à partir de git
+> git rev-parse --git-dir
+Open repository: /home/cthulhu/Programmation/DApps/Solidity-Dapps
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/stack-app refs/remotes/stack-app
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :migrations/1_initial_migration.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
+> git check-ignore -v -z --stdin
+> git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
+> git show --textconv :src/contracts/TokenFarm.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/TokenFarm.sol

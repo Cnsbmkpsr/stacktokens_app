@@ -1,0 +1,52 @@
+Validating found git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/cthulhu/Programmation/DApps/Solidity-Dapps
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/stack-app refs/remotes/stack-app
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/Migrations.sol
+> git check-ignore -v -z --stdin
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/2_deploy_contracts.js
+> git cat-file -s 06823ef65147416fa39f7fadae5f3ad0b1c93b50
+> git show --textconv :migrations/1_initial_migration.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
+> git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/2_deploy_contracts.js
+> git cat-file -s 06823ef65147416fa39f7fadae5f3ad0b1c93b50
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/abis/TokenFarm.json
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/abis/TokenFarm.json
+> git cat-file -s 73421180ddfc1931a1d8c45325247a0487e316e8
+> git show --textconv :src/index.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/index.js
+> git cat-file -s d7d1759014ef14b4ef93f9aebe93df6c17af562d
+> git show --textconv :migrations/1_initial_migration.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
+> git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/Migrations.sol
+> git show --textconv :migrations/1_initial_migration.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
+> git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
+> git show --textconv :src/contracts/Migrations.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/src/contracts/Migrations.sol
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/2_deploy_contracts.js
+> git cat-file -s 06823ef65147416fa39f7fadae5f3ad0b1c93b50
+> git show --textconv :migrations/1_initial_migration.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/Solidity-Dapps/migrations/1_initial_migration.js
+> git cat-file -s ee2135d2952eac46f0ed105282b87d68e8fae869
