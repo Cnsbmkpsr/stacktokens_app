@@ -277,3 +277,108 @@ Open repository: /home/cthulhu/Programmation/DApps/stacktoken_app
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+> git cat-file -s 750c718e811c4c2939b96721abd74cf7958be41d
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Cache/625bbe30771f2f39_0
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 5be963f4237f8c8d477ed5b22101e3443d382c5a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+> git cat-file -s 750c718e811c4c2939b96721abd74cf7958be41d
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 5be963f4237f8c8d477ed5b22101e3443d382c5a
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s b5a97698db935be1ae4a40b1b1cf27e92c9ee286
+> git show --textconv :src/contracts/DaiToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DaiToken.sol
+> git cat-file -s 5be963f4237f8c8d477ed5b22101e3443d382c5a
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s 52ca2997399f814c20fa28197f5662ea07ac4769
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s b5a97698db935be1ae4a40b1b1cf27e92c9ee286
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :migrations/2_deploy_contracts.js
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s 52ca2997399f814c20fa28197f5662ea07ac4769
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git add -A -- .
