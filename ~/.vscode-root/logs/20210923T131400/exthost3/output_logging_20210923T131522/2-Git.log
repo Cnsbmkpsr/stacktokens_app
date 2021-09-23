@@ -200,3 +200,54 @@ Open repository: /home/cthulhu/Programmation/DApps/stacktoken_app
 > git cat-file -s f0608c1e3536973bdc67e431ba5ae7ed5c1f964f
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/migrations/2_deploy_contracts.js
+> git cat-file -s 52ca2997399f814c20fa28197f5662ea07ac4769
+> git show --textconv :migrations/2_deploy_contracts.js
+> git show --textconv :src/contracts/DappToken.sol
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git cat-file -s b5a97698db935be1ae4a40b1b1cf27e92c9ee286
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/DappToken.sol
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/cthulhu/Programmation/DApps/stacktoken_app/.gitignore
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git add -A -- .
