@@ -1,0 +1,345 @@
+{
+  "contractName": "Kata",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "voter",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "votes",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "inFavor",
+          "type": "bool"
+        }
+      ],
+      "name": "VoteCast",
+      "type": "event"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"voter\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"votes\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"inFavor\",\"type\":\"bool\"}],\"name\":\"VoteCast\",\"type\":\"event\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Kata.sol\":\"Kata\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Kata.sol\":{\"keccak256\":\"0x99b4993036e3731461e09575e00632d51db696d30ad9a81e20946e5374d7af1b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://559bd10d841e64939c50d1f2495e93d33d3fa0e94107ceb6e6c75853f9aa5e44\",\"dweb:/ipfs/QmPErxvN77hpe1Zkx4e92HBm6Hc7jKzUMHsMPTMYzsSiKD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220aba591aba90f039596ea1ae75678cc327a5593148a02662b2641b6910d3b811b64736f6c63430008070033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220aba591aba90f039596ea1ae75678cc327a5593148a02662b2641b6910d3b811b64736f6c63430008070033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:81:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:81:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.7;\n\ncontract Kata {\n    event VoteCast(address voter, uint256 votes, bool inFavor);\n}\n",
+  "sourcePath": "/home/cthulhu/Programmation/DApps/stacktoken_app/src/contracts/Kata.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/Kata.sol",
+    "exportedSymbols": {
+      "Kata": [
+        372
+      ]
+    },
+    "id": 373,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 363,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 372,
+        "linearizedBaseContracts": [
+          372
+        ],
+        "name": "Kata",
+        "nameLocation": "66:4:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "id": 371,
+            "name": "VoteCast",
+            "nameLocation": "83:8:2",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 370,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 365,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "voter",
+                  "nameLocation": "100:5:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "92:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 364,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 367,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "votes",
+                  "nameLocation": "115:5:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "107:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 366,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 369,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "inFavor",
+                  "nameLocation": "127:7:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "122:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 368,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "122:4:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "91:44:2"
+            },
+            "src": "77:59:2"
+          }
+        ],
+        "scope": 373,
+        "src": "57:81:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:107:2"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/src/contracts/Kata.sol",
+    "exportedSymbols": {
+      "Kata": [
+        372
+      ]
+    },
+    "id": 373,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 363,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 372,
+        "linearizedBaseContracts": [
+          372
+        ],
+        "name": "Kata",
+        "nameLocation": "66:4:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "id": 371,
+            "name": "VoteCast",
+            "nameLocation": "83:8:2",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 370,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 365,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "voter",
+                  "nameLocation": "100:5:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "92:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 364,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 367,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "votes",
+                  "nameLocation": "115:5:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "107:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 366,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 369,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "inFavor",
+                  "nameLocation": "127:7:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 371,
+                  "src": "122:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 368,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "122:4:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "91:44:2"
+            },
+            "src": "77:59:2"
+          }
+        ],
+        "scope": 373,
+        "src": "57:81:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:107:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-25T15:36:08.083Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
