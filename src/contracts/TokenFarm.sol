@@ -13,5 +13,15 @@ contract TokenFarm {
         dappToken = _dappToken;
         daiToken = _daiToken;
     }
+
+    // 1. Stakes Tokens
+    function stakeTokens(uint _amount) public {
+
+        // Transfer Mock Dai tokens to this contract for staking
+        daiToken.transferFrom(msg.sender, )
+    }
+
+    // 2. Unstaking tokens (Withdraw)
+
+    // 3. Issuing Tokens
 }
- 
