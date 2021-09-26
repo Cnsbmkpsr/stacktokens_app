@@ -50,8 +50,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Rouvrir l'éditeur fermé",
-                                    "enabled": false
+                                    "label": "&&Rouvrir l'éditeur fermé"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -650,8 +649,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Emplacement de la dernière modification",
-                        "enabled": false
+                        "label": "&&Emplacement de la dernière modification"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1541,8 +1539,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/cthulhu/Programmation/Hardhat/kata",
-            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/e259f1ca3e0d2a9bf3f8fb9032be43e7",
+            "folder": "file:///home/cthulhu/Programmation/DApps/stacktoken_app",
+            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/d9d6342987a1caf1ec59c93038e00ea4",
             "uiState": {
                 "mode": 1,
                 "x": 960,
@@ -1564,8 +1562,8 @@
                 }
             },
             {
-                "folder": "file:///home/cthulhu/Programmation/Hardhat/kata",
-                "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/e259f1ca3e0d2a9bf3f8fb9032be43e7",
+                "folder": "file:///home/cthulhu/Programmation/DApps/stacktoken_app",
+                "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/d9d6342987a1caf1ec59c93038e00ea4",
                 "uiState": {
                     "mode": 1,
                     "x": 960,
