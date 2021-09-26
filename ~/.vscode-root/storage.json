@@ -57,24 +57,24 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/cthulhu/Programmation/Hardhat/kata",
-                                        "external": "file:///home/cthulhu/Programmation/Hardhat/kata",
-                                        "path": "/home/cthulhu/Programmation/Hardhat/kata",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/cthulhu/Programmation/Hardhat/kata"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/cthulhu/Programmation/DApps/Solidity-Dapps",
                                         "external": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps",
                                         "path": "/home/cthulhu/Programmation/DApps/Solidity-Dapps",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "/home/cthulhu/Programmation/DApps/Solidity-Dapps"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cthulhu/Programmation/Hardhat/kata",
+                                        "path": "/home/cthulhu/Programmation/Hardhat/kata",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/cthulhu/Programmation/Hardhat/kata"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -690,45 +690,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Groupe &&3"
+                                    "label": "Groupe &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Groupe &&4"
+                                    "label": "Groupe &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Groupe &&5"
+                                    "label": "Groupe &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "Groupe &&suivant"
+                                    "label": "Groupe &&suivant",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "Groupe pré&&cédent"
+                                    "label": "Groupe pré&&cédent",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Regrouper à &&gauche"
+                                    "label": "Regrouper à &&gauche",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Regrouper à &&droite"
+                                    "label": "Regrouper à &&droite",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Regrouper d&&essus"
+                                    "label": "Regrouper d&&essus",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Regrouper &&dessous"
+                                    "label": "Regrouper &&dessous",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1276,8 +1285,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Maj+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1501,17 +1511,17 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/cthulhu/Programmation/Hardhat/kata",
-            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/e259f1ca3e0d2a9bf3f8fb9032be43e7",
+            "folder": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps",
+            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/1a957b552d0e33eb43b6cdb14690ddf6",
             "uiState": {
-                "mode": 0,
-                "x": 960,
-                "y": 65,
+                "mode": 1,
+                "x": 162,
+                "y": 411,
                 "width": 960,
-                "height": 1015
+                "height": 753
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/cthulhu/Programmation/Hardhat"
+    "pickerWorkingDir": "/home/cthulhu/Programmation/DApps"
 }
