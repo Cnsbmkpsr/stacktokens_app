@@ -3,13 +3,16 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps"
+                "folderUri": "file:///home/cthulhu/Programmation/DApps/stacktoken_app"
             },
             {
                 "folderUri": "file:///home/cthulhu/Programmation/Hardhat/kata"
             },
             {
-                "folderUri": "file:///home/cthulhu/Programmation/DApps/stacktoken_app"
+                "folderUri": "file:///home/cthulhu/Programmation/nextjs/Mastering-Perfection"
+            },
+            {
+                "folderUri": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps"
             }
         ]
     },
@@ -57,13 +60,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/cthulhu/Programmation/DApps/Solidity-Dapps",
-                                        "external": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps",
-                                        "path": "/home/cthulhu/Programmation/DApps/Solidity-Dapps",
+                                        "fsPath": "/home/cthulhu/Programmation/DApps/stacktoken_app",
+                                        "external": "file:///home/cthulhu/Programmation/DApps/stacktoken_app",
+                                        "path": "/home/cthulhu/Programmation/DApps/stacktoken_app",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/cthulhu/Programmation/DApps/Solidity-Dapps"
+                                    "label": "/home/cthulhu/Programmation/DApps/stacktoken_app"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -80,12 +83,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/cthulhu/Programmation/DApps/stacktoken_app",
-                                        "path": "/home/cthulhu/Programmation/DApps/stacktoken_app",
+                                        "external": "file:///home/cthulhu/Programmation/nextjs/Mastering-Perfection",
+                                        "path": "/home/cthulhu/Programmation/nextjs/Mastering-Perfection",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/cthulhu/Programmation/DApps/stacktoken_app"
+                                    "label": "/home/cthulhu/Programmation/nextjs/Mastering-Perfection"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps",
+                                        "path": "/home/cthulhu/Programmation/DApps/Solidity-Dapps",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/cthulhu/Programmation/DApps/Solidity-Dapps"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -254,6 +268,22 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copier"
+                    },
+                    {
+                        "id": "submenuitem.23",
+                        "label": "Copier en tant que",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File Url"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File Url From..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -584,7 +614,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Retour automatique à la ligne",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1511,17 +1541,40 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/cthulhu/Programmation/DApps/Solidity-Dapps",
-            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/1a957b552d0e33eb43b6cdb14690ddf6",
+            "folder": "file:///home/cthulhu/Programmation/Hardhat/kata",
+            "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/e259f1ca3e0d2a9bf3f8fb9032be43e7",
             "uiState": {
                 "mode": 1,
-                "x": 0,
+                "x": 960,
                 "y": 65,
                 "width": 960,
                 "height": 1015
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/cthulhu/Programmation/nextjs/Mastering-Perfection",
+                "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/389175a4010f7d3cf570d5cca7e417b9",
+                "uiState": {
+                    "mode": 1,
+                    "x": 0,
+                    "y": 65,
+                    "width": 960,
+                    "height": 1015
+                }
+            },
+            {
+                "folder": "file:///home/cthulhu/Programmation/Hardhat/kata",
+                "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/e259f1ca3e0d2a9bf3f8fb9032be43e7",
+                "uiState": {
+                    "mode": 1,
+                    "x": 960,
+                    "y": 65,
+                    "width": 960,
+                    "height": 1015
+                }
+            }
+        ]
     },
     "pickerWorkingDir": "/home/cthulhu/Programmation/DApps"
 }
