@@ -1515,10 +1515,10 @@
             "backupPath": "/home/cthulhu/Programmation/DApps/stacktoken_app/~/.vscode-root/Backups/1a957b552d0e33eb43b6cdb14690ddf6",
             "uiState": {
                 "mode": 1,
-                "x": 162,
-                "y": 411,
+                "x": 0,
+                "y": 65,
                 "width": 960,
-                "height": 753
+                "height": 1015
             }
         },
         "openedWindows": []
