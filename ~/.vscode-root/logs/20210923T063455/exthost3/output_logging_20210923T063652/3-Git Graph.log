@@ -1,9 +1,0 @@
-[2021-09-23 06:36:52.286] Starting Git Graph ...
-[2021-09-23 06:36:52.400] Using git (version: 2.33.0)
-[2021-09-23 06:36:52.407] Started Git Graph - Ready to use!
-[2021-09-23 06:36:52.408] Searching workspace for new repos ...
-[2021-09-23 06:36:52.416] > git rev-parse --show-toplevel
-[2021-09-23 06:36:52.485] Added new repo: /home/cthulhu/Programmation/DApps/stacktoken_app
-[2021-09-23 06:36:52.523] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
-[2021-09-23 06:36:52.533] Completed searching workspace for new repos
-[2021-09-23 06:36:52.533] Showing "Git Graph" Status Bar Item
